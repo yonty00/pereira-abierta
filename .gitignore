@@ -1,0 +1,34 @@
+# ---- Secrets & sensitive material (never commit) ----
+*.env
+.env*
+*.key
+*.pem
+*_rsa
+*_ed25519
+*_ed25519_*
+id_*
+known_hosts
+secrets/
+*.secret
+
+# Real (unredacted) configs & data — keep only the .example versions in the repo
+Caddyfile
+!Caddyfile.example
+pb_data/
+*.db
+*.sqlite
+*.sqlite3
+backups/
+*.bak
+
+# Full frontend source (kept out of the repo by choice)
+index.html
+pereira-abierta-connected.html
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+._*
+.vscode/
+.idea/
+*.swp
