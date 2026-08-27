@@ -19,7 +19,7 @@ fundamentals).
 | Install | Bare metal (wiped) | Eliminates legacy driver cruft; smaller attack surface than host+VM |
 | Web server | Caddy | Single binary, simple config, easy security headers |
 | Backend | PocketBase | Go single binary, SQLite, REST API + admin UI, quick to model data |
-| Public exposure | Cloudflare Tunnel | **Outbound-only — no router ports opened**, hides home IP, free HTTPS + DDoS |
+| Public exposure | Cloudflare Tunnel | **Outbound-only — no router ports opened**, hides IPs, free HTTPS + DDoS |
 | Remote admin | Tailscale + SSH keys | Private mesh, reach from anywhere, nothing exposed publicly |
 
 ## 3. A hardware-debugging detour (and the lesson)
