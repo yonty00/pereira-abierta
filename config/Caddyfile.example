@@ -27,6 +27,6 @@
 	respond @blocked 404
 
 	# ---- Proxy everything else to the local PocketBase instance ----
-	reverse_proxy 127.0.0.1:8090
+	reverse_proxy IP:Port
 	encode gzip
 }
