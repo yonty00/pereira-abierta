@@ -16,11 +16,9 @@ It started as a way to repurpose a spare desktop into a self-hosted Linux web se
 
 ## Screenshots
 
-> Add images to `screenshots/` and reference them here.
-
 | Home | Map | Security grade |
 |---|---|---|
-| `screenshots/home.png` | `screenshots/map.png` | `screenshots/securityheaders-A.png` |
+| ![Home screen](screenshots/home.png) | ![Map with clustered pins](screenshots/map.png) | ![Security Headers grade A](screenshots/securityheaders-A.png) |
 
 ## Architecture
 
