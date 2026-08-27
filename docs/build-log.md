@@ -64,7 +64,7 @@ better aligned with the end goal.
 
 - Configured **Cloudflare Tunnel** (`cloudflared`) as a systemd service: an
   outbound-only connection to Cloudflare, so **no inbound ports are opened** and the
-  home IP stays hidden.
+  IP stays hidden.
 - Put **Caddy** in front of PocketBase to **block the admin UI (`/_/`) and non-public
   API paths at the edge** (return 404), while proxying the public collection.
 - Added a domain, Cloudflare **Email Routing**, a `.com → .co` redirect, and
