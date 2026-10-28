@@ -19,6 +19,9 @@ pb_data/
 *.sqlite
 *.sqlite3
 backups/
+Backups/
+# Backup archives anywhere in the tree (production data, real phone numbers)
+*.zip
 *.bak
 
 # Full frontend source (kept out of the repo by choice)
